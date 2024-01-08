@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF8">
+        <link rel="stylesheet" href="../CSS/intro.css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contacto</title>
+        <link rel="icon" href="../IMAGENES/favicon.png">      
+    </head>
+    <body id="contacto">              
+            <div id="container">
+                <div class="header">
+                    <ul>
+                        <li><a href="index.html" title="Inicio" target="_parent">Inicio</a></li>                       
+                        <li><a href="terapias.html" title="Terapias" target="_parent">Terapias</a></li>
+                        <li><a href="precios.html" title="Precios" target="_parent">Precios</a></li>
+                        <li><a href="#Contacto" title="Contacto">Contacto</a></li>                  
+                      </ul>
+                </div>              
+            </div>
+            <h1><a name="Contacto">Contacte con nosotros</a></h1></br> 
+            <div id="formulario">    
+                <script type="text/javascript" src="../JS/index.js"></script>
+                                
+                <form id="borrar">                                                                        
+                            
+                    <label>Nombre: </label>
+                    <input type="text" name="Nombre" placeholder="Nombre" size="21" required autocomplete="off">
+                                                        
+                    <label>Teléfono:</label>
+                    <input type="tel" name="phone" placeholder="Nº de teléfono" size="21" pattern="[0-9]{9}" required autocomplete="off">
+                </br>                                
+                    <label>Email:</label>
+                    <input type="text" name="mail" placeholder="Correo electrónico" size="21" required autocomplete="off">
+                                                
+                    <textarea id="consulta"></textarea>
+                                
+                    <button class="boton" type="submit" onclick="validar();">ENVIAR</button>
+                    <input class="boton" type="Reset" value="BORRAR DATOS">
+                        
+                </form>   
+            </div> 
+            </br>            
+            <div id=mapa>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3042.00951314816!2d-3.875806595057212!3d40.319946413395165!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd418dd0cbb40e17%3A0xbc81e9ed135cc6cb!2sC.%20Vizcaya%2C%2028934%20M%C3%B3stoles%2C%20Madrid!5e0!3m2!1ses!2ses!4v1641728752073!5m2!1ses!2ses" 
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+            <div id=enlaces>
+                <table id="tabla">
+                    <caption>ENLACES EXTERNOS</caption>
+                    <tr>
+                        <th>TERAPIA</th>
+                        <th>CONTENIDO</th>
+                        <th>FUENTE</th>
+                    </tr>
+                    <tr>
+                        <td>QUIROMASAJE</td>
+                        <td>INFORMACIÓN GENERAL</td>
+                        <td><a href="https://es.wikipedia.org/wiki/Quiromasaje" target="_blank" title="https://es.wikipedia.org/wiki/Quiromasaje">WIKIPEDIA</a></td>
+                    </tr>
+                    <tr>
+                        <td>REFLEXOLOGÍA</td>
+                        <td>INFORMACIÓN GENERAL</td>
+                        <td><a href="https://es.wikipedia.org/wiki/Reflexolog%C3%ADa" target="_blank" title="https://es.wikipedia.org/wiki/Reflexolog%C3%ADa">WIKIPEDIA</a></td>
+                    </tr>
+                    <tr>
+                        <td>MOXIBUSTIÓN</td>
+                        <td>INFORMACIÓN GENERAL</td>
+                        <td><a href="https://es.wikipedia.org/wiki/Moxibusti%C3%B3n" target="_blank" title="https://es.wikipedia.org/wiki/Moxibusti%C3%B3n">WIKIPEDIA</a></td>
+                    </tr>
+                </table>
+            </div>
+            <div id="footer">                                     
+                <div class="uno">
+                    <p>CONTACTO</p>
+                    <p>Calle Vizcaya, 2
+                    28934 Móstoles-MADRID</p>
+                    <p>Tlf.: 666 800 428</p>
+                    <p>info@sempiterno.com</p>
+                    
+                </div>  
+                <div class="dos">
+                    <p>Lunes a Viernes:</p>
+                    <p>MAÑANAS de 10.00h a 13.30h  TARDES de 16.00h a 20.30h</p>
+                    <p>Sábados:</p>
+                    <p>MAÑANAS de 10.00h a 13.30h</p>
+                </div>                                                                   
+                <div class="tres">               
+                </br>
+                    <a href="https://www.facebook.com/" target="_blank" title="Facebook"><img src="../IMAGENES/faccebook.jpg" alt="facebook" width="40px" height="40px"></a>
+                    <a href="https://www.instagram.com/" target="_blank" title="Instagram"><img src="../IMAGENES/instagram.jpg" alt="instagram" width=”40px” height="40px"></a>
+                    <a href="https://www.twiter.com/" target="_blank" title="twiter"><img src="../IMAGENES/twiter.jpg" alt="twiter" width=”40px” height="40px"></a>
+                    <a href="https://www.whatsapp.com/" target="_blank" title="whatsapp"><img src="../IMAGENES/whatsapp.png" alt="whatsapp" width=”40px” height="40px"></a>
+                    <a href="https://www.youtube.com/" target="_blank" title="youtube"><img src="../IMAGENES/youtube.png" alt="youtube" width=”40px” height="40px"></a>
+                </div>                
+            </div>                 
+    </body>
+</html>
